@@ -15,6 +15,8 @@ apply plugin: 'war'
 
 apply plugin: "org.sonarqube"
 
+apply plugin: 'jacoco'
+
 
 repositories {
     jcenter()
